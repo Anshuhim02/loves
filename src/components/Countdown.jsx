@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react'
 
 export default function Countdown() {
   // Anniversary date: May 2026 (adjust to exact date)
-  const anniversaryDate = new Date(2025, 4, 11) // May 11, 2025 — wedding date
+  const anniversaryDate = new Date(2025, 4, 8) // May 11, 2025 — wedding date
   
   // Baby arrival estimate — adjust as needed (example: October 2026)
-  const babyDueDate = new Date(2026, 9, 15) // October 15, 2026
+  const babyDueDate = new Date(2026, 8, 5) // October 15, 2026
 
   const [sinceWedding, setSinceWedding] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
   const [untilBaby, setUntilBaby] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
