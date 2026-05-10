@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', maxWidth: '1200px', margin: '0 auto' }}>
         <a href="#home" className="navbar-brand" style={{ textDecoration: 'none' }}>
-          B ❤️ B
+          D ❤️ S
         </a>
         <div style={{ display: 'flex', gap: '4px', alignItems: 'center' }}>
           {[
