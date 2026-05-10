@@ -270,7 +270,7 @@ export default function HeroSection() {
               backgroundClip: 'text',
             }}
           >
-            Bhaiya
+            Deepak
           </span>
           <motion.span
             style={{ fontSize: 'clamp(1.8rem, 6vw, 3rem)' }}
@@ -290,7 +290,7 @@ export default function HeroSection() {
               backgroundClip: 'text',
             }}
           >
-            Bhabhi
+            Shraddha
           </span>
         </motion.div>
 
